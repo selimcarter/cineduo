@@ -36,7 +36,7 @@ Ils tournent aussi automatiquement sur GitHub à chaque envoi (onglet **Actions*
 
 Le site a besoin d'un serveur qui tourne en continu (connexions temps réel) : il est hébergé sur [Render](https://render.com), offre gratuite.
 
-1. **New +** → **Web Service** → dépôt `selimcarter/Claude-test`, branche `claude/sync-streaming-platform-4typuw`.
+1. **New +** → **Web Service** → dépôt `selimcarter/Claude-test`, branche `Main-cineduo`.
 2. **Region** : *Frankfurt* (au plus près de l'Europe et de l'Asie du Sud). **Build** : `npm install` · **Start** : `npm start` · **Instance** : *Free*.
 3. **Environment** : voir les variables ci-dessous.
 4. Chaque envoi sur la branche est mis en ligne automatiquement. Option conseillée : **Settings → Auto-Deploy → After CI Checks Pass**, pour attendre que les tests passent.
